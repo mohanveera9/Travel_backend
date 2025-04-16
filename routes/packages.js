@@ -4,7 +4,7 @@ import {
     getAllPackages, 
     updatePackage, 
     deletePackage 
-} from '../controllers/packageController.js';
+} from '../Controllers/packageController.js';
 import { verifyAdmin } from '../utils/verifyToken.js';
 
 const router = express.Router();
